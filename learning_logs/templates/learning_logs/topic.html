@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Topic</title>
+</head>
+
+<body>
+{# header #}
+{% extends 'learning_logs/base.html' %}
+
+{# content #}
+{% block content %}
+    <p>Topic: {{ topic }}</p>
+    <p>Entries:</p>
+
+    <ul>
+        {% for entry in entries %}
+            <li>
+                {# |date: 'M d, Y H:i' #}
+                <p>{{ entry.date_added }}</p>
+                <p>{{ entry.text|linebreaks }}</p>
+            </li>
+        {% empty %}
+            <li>There are no entries for this topic yet ¯\_(ツ)_/¯</li>
+        {% endfor %}
+    </ul>
+{% endblock content %}
+</body>
+</html>
