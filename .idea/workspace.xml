@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="019db175-16cb-4a66-8428-3b69123486a9" name="Changes" comment="добавлена регистрация">
-      <change afterPath="$PROJECT_DIR$/learning_logs/migrations/0003_topic_owner_alter_topic_date_added.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/edit_entry.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/registration/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_log/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_log/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_log/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_log/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_logs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning_logs/templates/learning_logs/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_logs/templates/learning_logs/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/templates/learning_logs/topic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_logs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning_logs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/learning_logs/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +106,7 @@
       <workItem from="1709728415637" duration="5880000" />
       <workItem from="1709792430233" duration="1775000" />
       <workItem from="1709801845078" duration="8526000" />
-      <workItem from="1709873557867" duration="1851000" />
+      <workItem from="1709873557867" duration="5188000" />
     </task>
     <task id="LOCAL-00001" summary="добавлены новые модели">
       <option name="closed" value="true" />
@@ -150,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709634430734</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавлена регистрация">
+      <option name="closed" value="true" />
+      <created>1709875589707</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709875589707</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +173,7 @@
     <MESSAGE value="добавлены новые модели" />
     <MESSAGE value="добавлены страницы тем" />
     <MESSAGE value="добавлены формы для добавления тем и записей" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлены формы для добавления тем и записей" />
+    <MESSAGE value="добавлена регистрация" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлена регистрация" />
   </component>
 </project>
