@@ -1,5 +1,3 @@
-{% load bootstrap4 %}
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,12 +8,12 @@
 
     <title>Learning Log</title>
 
+    {% load bootstrap5 %}
     {% bootstrap_css %}
-    {% bootstrap_javascript jquery='full' %}
+    {% bootstrap_javascript %}
 </head>
 
 <body>
-{# header #}
 <nav class="navbar navbar-expand-md navbar-light bg-light mb-4 border">
     <a class="navbar-brand" href="{% url 'learning_logs:index' %}">
         Learning Log</a>
@@ -53,7 +51,6 @@
     </div>
 </nav>
 
-{# content #}
 <main role="main" class="container">
     <div class="pb-2 mb-2 border-bottom">
         {% block page_header %}{% endblock page_header %}

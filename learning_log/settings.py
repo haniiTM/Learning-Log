@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'users',
 
     # Сторонние приложения
-    'bootstrap4',
+    'bootstrap5',
 
     # Приложения django по умолчанию.
     'django.contrib.admin',
